@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background="color: #000000">
+            <a-entity position="0 0 0" rotation="0 0 3" animation="property: position; from: 0 0 0; to: 0.5 0 0; dir: alternate; loop: true; dur: 1000">
+                <a-sphere position="0 5 -5" radius="0.2" color="red"></a-sphere>
+                <a-cylinder position="0 4.5 -5" radius="0.1" height="0.6" color="white"></a-cylinder>
+            </a-entity>
+            <a-sphere position="0 4 -5" radius="0.45" color="yellow"></a-sphere>
+            <a-box position="0 3.3 -5" length="2" width="1.5" height="1.5" color="teal"></a-box>
+            <a-sphere position="-0.4 3.5 -4.5" radius="0.25" color="white"></a-sphere>
+            <a-sphere position="-0.4 3.35 -4.3" radius="0.08" color="#000000" animation="property: position; from: -0.4 3.35 -4.3; to: -0.4 3.5 -4.3; dir: alternate; loop: true; dur: 1000"></a-sphere>
+            <a-sphere position="0.4 3.5 -4.5" radius="0.25" color="white"></a-sphere>
+            <a-sphere position="0.4 3.35 -4.3" radius="0.08" color="#000000" animation="property: position; from: 0.4 3.35 -4.3; to: 0.4 3.5 -4.3; dir: alternate; loop: true; dur: 1000"></a-sphere>
+            <a-ring position="0 2.9 -4.4" radius-inner="0.2" radius-outer="0.3"color="orange"></a-ring>
+            <a-box position="0 2.44 -5" length="1" width="0.8" height="0.25" color="yellow"></a-box>
+            <a-box position="0 1.06 -5" length="2.5" width="2.5" height="2.5" color="teal"></a-box>
+            <a-cylinder position="1.7 1.5 -5" radius="0.15" height="1.5" rotation="0 0 45"></a-cylinder>
+            <a-sphere position="2.4 0.8 -5" radius="0.3" color="orange"></a-sphere>
+            <a-cylinder position="-1.7 1.5 -5" radius="0.15" height="1.5" rotation="0 0 -45"></a-cylinder>
+            <a-sphere position="-2.4 0.8 -5" radius="0.3" color="orange"></a-sphere>
+            <a-cylinder position="-0.7 -0.9 -5" radius="0.3" height="1.5"></a-cylinder>
+            <a-sphere position="-0.7 -1.45 -5" radius="0.4" color="orange"></a-sphere>
+            <a-cylinder position="0.7 -0.9 -5" radius="0.3" height="1.5"></a-cylinder>
+            <a-sphere position="0.7 -1.45 -5" radius="0.4" color="orange"></a-sphere>
+        </a-scene>
+    </body>
+</html>
